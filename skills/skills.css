@@ -1,0 +1,75 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light text color */
+}
+/* Skills Section */
+#skills {
+    padding: 20px;
+    max-width: 1200px;
+    text-align: left;
+    position: relative;
+    background-color: #1e1e1e;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    margin: 10px 30px;
+    border: 1px solid #444; /* Darker border */
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+#skills h2 {
+    background-color: #333; /* Dark background for a professional look */
+    color: #e0e0e0; /* Light text color for readability */
+    margin-bottom: 20px; /* Increased bottom margin for better spacing */
+    padding: 10px 15px; /* Padding for better readability and appearance */
+    font-size: 24px; /* Slightly larger font size for prominence */
+    border-left: 5px solid #007BFF; /* Blue left border for a polished look */
+    font-family: 'Arial', sans-serif; /* Professional and clean font */
+}
+
+.view-linkedin-btn {
+    display: inline-block; /* Display inline-block to stay under the title */
+    margin-top: 10px; /* Add margin to separate button from title */
+    padding: 5px 10px;
+    background-color: #0077b5; /* LinkedIn blue */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+#skills #skillsList {
+    margin-top: 20px; /* Add margin to separate skills list from button */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Column layout for skills */
+    gap: 20px; /* Space between skill items */
+}
+
+#skills .skill {
+    background-color: #333; /* Light background for skill items */
+    padding: 15px; /* Padding for better readability */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+#skills .skill h3 {
+    font-size: 18px; /* Font size for skill titles */
+    margin-bottom: 10px; /* Margin below skill titles */
+    color: #e0e0e0; /* Light text color for readability */
+}
+
+#skills .skill p {
+    font-size: 14px; /* Font size for skill descriptions */
+    color: #c0c0c0; /* Slightly darker text color for descriptions */
+    margin: 0; /* Remove default margins */
+}
+
+#skills .skill:hover {
+    background-color: #444; /* Darker on hover */
+}

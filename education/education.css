@@ -1,0 +1,211 @@
+/* Experience Section */
+.education {
+    padding: 20px;
+    max-width: 1200px;
+    text-align: left;
+    position: relative;
+    background-color: #1e1e1e; /* Same as CSS Y */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    margin: 10px 30px;
+    border: 1px solid #444; /* Same as CSS Y */
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.education .container {
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #1e1e1e; /* Same as CSS Y */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.education h2 {
+    background-color: #333; /* Same as CSS Y */
+    color: #e0e0e0; /* Same as CSS Y */
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    font-size: 24px;
+    border-left: 5px solid #007BFF;
+    font-family: 'Arial', sans-serif;
+}
+
+.education-card {
+    display: flex;
+    align-items: center;
+    border: 1px solid #444;
+    border-radius: 5px;
+    padding: 20px; /* Added padding */
+}
+
+
+.education-card .details {
+    flex-grow: 1;
+}
+
+.education-logo {
+    width: 80px;
+    height: auto;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+
+.info-wrapper {
+    clear: both;
+}
+
+.sub-info {
+    display: block;
+    overflow: hidden;
+    line-height: 20px;
+}
+
+.sub-info {
+    display: block;
+    overflow: hidden;
+    line-height: 20px;
+}
+
+/* Licenses & Certifications Section */
+#licenses {
+    padding: 20px;
+    max-width: 1200px;
+    text-align: left;
+    position: relative;
+    background-color: #1e1e1e;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    margin: 10px 30px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+#licenses h2 {
+    background-color: #333;
+    color: #e0e0e0;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    font-size: 24px;
+    border-left: 5px solid #007BFF;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Container for all licenses */
+#licenses-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Individual License Item */
+.license-item {
+    background-color: #1e1e1e;
+    border: 1px solid #444;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.issuer-logo {
+    width: 60px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.license-info {
+    flex-grow: 1;
+}
+
+.license-info h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.license-info p {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .license-item {
+        flex-basis: calc(50% - 10px);
+        max-width: 85%;
+    }
+}
+
+@media (max-width: 992px) {
+    .license-item {
+        flex-basis: calc(50% - 10px);
+        max-width: 75%;
+    }
+}
+
+@media (max-width: 480px) {
+    .license-item {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+}
+
+
+/* Operation Units and Skills Section */
+.operation-units-skills {
+    padding: 20px;
+    max-width: 1200px;
+    text-align: left;
+    position: relative;
+    background-color: #1e1e1e; /* Same as CSS Y */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    margin: 10px 30px;
+    border: 1px solid #444; /* Same as CSS Y */
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.operation-units-skills h2 {
+    background-color: #333; /* Same as CSS Y */
+    color: #e0e0e0; /* Same as CSS Y */
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    font-size: 24px;
+    border-left: 5px solid #007BFF;
+    font-family: 'Arial', sans-serif;
+}
+
+.operation-units-skills .units, .operation-units-skills .skills {
+    margin-bottom: 20px;
+}
+
+.operation-units-skills h3 {
+    color: #e0e0e0; /* Same as CSS Y */
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.operation-units-skills ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.operation-units-skills li {
+    color: #e0e0e0; /* Same as CSS Y */
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.operation-units-skills p {
+    color: #e0e0e0; /* Same as CSS Y */
+    font-size: 16px;
+    line-height: 24px;
+}
+
